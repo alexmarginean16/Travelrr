@@ -169,9 +169,6 @@ class Messenger(BaseMessenger):
         res = self.set_messenger_profile(persistent_menu.to_dict())
         app.logger.debug('Response: {}'.format(res))
 
-#os.environ['FB_PAGE_TOKEN'] = 'EAAEVhxYs8zoBAAgHudQk4qJSwESPMYX0mjfqae14mUafFo7ezrJaoWcMHm2Pqbf7Oe69JfQvMzq18bhrQm2dZCWEZBFdvaPzcCNk3OIyINDM2UA8qm3hIlrxkr6fgean01yrLB3jW6vj39jaZBTyUXeiM7YnCRBubD7HzJQ0MtZCCU6IsvFr'
-#os.environ['FB_VERIFY_TOKEN'] = 'hello'
-
 app = Flask(__name__)
 app.debug = True
 messenger = Messenger(os.environ.get('FB_PAGE_TOKEN'))
