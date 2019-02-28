@@ -1,5 +1,6 @@
 # :steam_locomotive: Travelrr
-A Facebook messenger bot that gives train information from Romanian Railways.
+A Facebook messenger bot that gives train information from Romanian Railways. 
+A live version of the app can be accessed [here](https://www.facebook.com/Travelrr-334385437191241)
 
 Please feel free to contribute to anything for example:
 - documentation
