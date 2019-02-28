@@ -36,7 +36,7 @@ Please feel free to contribute to anything for example:
 
 Where `FB_PAGE_TOKEN` is the access token you copied from facebook app, and `FB_VERIFY_TOKEN` could be whatever you want.
 
-9. Run ngrok on the same port as the python server (usually 5000) `. ngrok http 5000`.
+9. Run ngrok on the same port as the python server (usually 5000) `./ngrok http 5000`.
 10. On facebook developer website while in your app go to Messenger > Settings and click `Add webhook`. At the webhook URL paste the link ngrok created for the `localhost` tunnel, and the `FB_VERIFY_TOKEN` value you created before. Select every checkbox and click done.
 11. Down to "Select a page to subscribe your webhook to the page events" select your desired page and click "subscribe".
 
