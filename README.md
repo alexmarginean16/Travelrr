@@ -30,8 +30,8 @@ Please feel free to contribute to anything for example:
 7. Go to Messenger > Settings, select your page and get your `Page Access Token`.
 8. Run your python application:
 
-        export FB_PAGE_TOKEN=<<yourpagetoken>> 
-        export FB_VERIFY_TOKEN=<<yourverifytoken>>
+        export FB_PAGE_TOKEN='<<yourpagetoken>>'
+        export FB_VERIFY_TOKEN='<<yourverifytoken>>'
         python app.py.
 
 Where `FB_PAGE_TOKEN` is the access token you copied from facebook app, and `FB_VERIFY_TOKEN` could be whatever you want.
